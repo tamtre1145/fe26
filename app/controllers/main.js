@@ -1,5 +1,7 @@
 $(document).ready(function() {
-
+    function themnguoidung1() {
+        console.log("themnguoidung1");
+    }
     var danhSachNguoiDung = [];
     var nguoiDungServices = new NguoiDungServices();
     var ajaxDanhSachNguoiDung = nguoiDungServices.layThongTinNguoiDung();
